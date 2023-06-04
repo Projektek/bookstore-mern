@@ -6,7 +6,7 @@ const express = require('express');
 const mainRoutes = require('./routes/mainRoutes');
 
 // app szerver létrehozása, beállítása a .env állományban eltárolt értékkel
-// a .env állományt csak a fejlesztés során használjuk, a .gitignore mappában hivatkozunk rá
+// a .env állományt csak a fejlesztés során használjuk, a .gitignore állományban hivatkozunk rá
 // a .env-ben lévő beállítások helyett a szolgáltató webszerver (production server) a sajátjait fogja használni
 const app = express();
 const PORT = process.env.PORT || 3500;
